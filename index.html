@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Cabo Verde - No Stress</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">What to do</a>
+                    </li>
+                    <li>
+                        <a href="">Islands</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>No Stress</h1>
+            <p>
+                Relax in Cape Verde this summer,<br /> the land of No Stress.
+            </p>
+            <a href="" class="hero-btn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="what-to-do">
+        <h1>What to do</h1>
+        <p>
+            Try out our huge range of activities and tours, go quad biking, zip lining, try out a range of water sports or simply
+            releax on the beach. It really is up to you.
+        </p>
+        <div class="row">
+            <div class="what-to-do-col">
+                <h3>Island tour</h3>
+                <p>
+                    Tour the whole island of Sal, visit shark bay, the salt lakes and experience the blue eye.
+                    After all have a relaxing meal and drink in a local restaurant.
+                </p>
+            </div>
+
+            <div class="what-to-do-col">
+                <h3>Zip lining</h3>
+                <p>
+                    Speeds of up to 80 mph on a zip line. Enjoy the singing and dancing with our local tour guides.
+                </p>
+                <img src="images/zipline.jpg"/>
+            </div>
+            <div class="what-to-do-col">
+                <h3>Water Sports</h3>
+                <p>
+                    Speeds of up to 80 mph on a zip line. Enjoy the singing and dancing with our local tour guides.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="islands">
+        <h1>Islands of Cabo Verde</h1>
+        <p>There are 10 different islands in Cape Verde</p>
+        <div class="row">
+            <div class="islands-col">
+                <img src="images/sal.jpg" />
+                <h3>Sal and its sandy beaches</h3>
+            </div>
+            <div class="islands-col">
+                <img src="images/download.jpg" />
+                <h3>San Antao</h3>
+            </div>
+            <div class="islands-col">
+                <img src="images/Santa Maria.jpg" />
+                <h3>Santa Maria</h3>
+            </div>
+            <div class="islands-col">
+                <img src="images/mindelo.jpg" />
+                <h3>Mindelo</h3>
+            </div>
+            <div class="islands-col">
+                <img src="images/fogo.jpg" />
+                <h3>Fogo</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="islands-col">
+                <img src="images/sal.jpg" />
+                <h3>Sal and its sandy beaches</h3>
+            </div>
+            <div class="islands-col">
+                <img src="images/download.jpg" />
+                <h3>San Antao</h3>
+            </div>
+            <div class="islands-col">
+                <img src="images/Santa Maria.jpg" />
+                <h3>Santa Maria</h3>
+            </div>
+            <div class="islands-col">
+                <img src="images/mindelo.jpg" />
+                <h3>Mindelo</h3>
+            </div>
+            <div class="islands-col">
+                <img src="images/fogo.jpg" />
+                <h3>Fogo</h3>
+            </div>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
